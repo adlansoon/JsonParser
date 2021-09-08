@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "JsonParser": {
+      "commandName": "Project",
+      "commandLineArgs": "\"sample.json\" \".\\test\\test.table\""
+    }
+  }
+}
