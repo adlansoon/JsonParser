@@ -1,6 +1,8 @@
 # JsonParser
 This .NET Core console application is written with C#.
 
+Usage: .\JsonParser.exe "sample.json" ".\test\test.table"
+
 By supplying a JSON that consist of Item, Batter and Topping:
 ![image](https://user-images.githubusercontent.com/90307837/132856197-ba4a764b-a9f8-44ed-943b-933168f74f26.png)
 
