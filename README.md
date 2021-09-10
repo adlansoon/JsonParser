@@ -1,6 +1,8 @@
 # JsonParser
 This .NET Core console application is written with C#.
 
+Basically, the Newtonsoft.json library is used to read the JSON content and LINQ is used to reorganized the data into object lists. To achieve data normalised form, the easiest and most efficient way is to utilize the table outer join approach. The LINQ does have the functionality to do outer join between lists. This solution basically is developed based on these 2 concepts.
+
 Usage: .\JsonParser.exe "sample.json" ".\test\test.table"
 
 By supplying a JSON that consist of Item, Batter and Topping:
